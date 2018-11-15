@@ -1,8 +1,10 @@
 body {
   font-family: "Calibri";
   text-align: left;
-  margin-top: 0;
-  margin: 0;
+}
+
+#ada-background {
+  opacity: 0.5;
 }
 
 .home-page-image {
@@ -31,6 +33,7 @@ h1 {
 
 #biography {
   clear: both;
+  padding-left: 15px;
 }
 
 h2 {
@@ -114,10 +117,11 @@ text-decoration: underline;
 
 .navbar {
   background-color: #f495bf;
-  padding: 100px;
 }
 
-
+.nav {
+  background-color: #f495bf;
+}
 .navbar-brand {
   color: #df1b27;
   text-decoration: none;
@@ -126,7 +130,6 @@ text-decoration: underline;
   font-weight: bold;
   background-color: #f495bf;
 }
-
 
 form {
   padding-bottom: 100px;
@@ -171,11 +174,3 @@ footer {
   width: 100%;
   display: inline;
 }
-
-/*
-.border {
-  border: solid 2px #f0f;
-  box-shadow:
-      0px 0px 60px 30px #fff,
-      0px 0px 15px 15px #f0f;
-  }*/
