@@ -10,14 +10,13 @@ body {
 }
 
 h1 {
-  color: #df1b27;
   margin-top: 0;
   margin-bottom: 0;
   text-align: center;
 }
 
 #wrapper {
-  width: 90%;
+  width: 50%;
   max-width: 1024px;
   margin: 0 auto;
 }
@@ -26,6 +25,8 @@ h1 {
   float: left;
   width: 50%;
   margin-top: 8%;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 #biography {
@@ -57,7 +58,7 @@ figure {
 }
 
 img {
-  width: 65%;
+  width: 70%;
   margin-top: 30px;
 }
 
@@ -78,70 +79,11 @@ figcaption {
     width: 50%;
   }
 
-form {
-  padding-bottom: 100px;
-}
+  img {
+    margin-left: 80px;
+  }
 
-footer {
-    padding-bottom: 30px;
 }
-
-.col {
-  padding: 30px;
-}
-
-.container {
-  width: 100%;
-}
-
-.form-inline label {
-  font-size: 20px;
-  font-weight: bold;
-  color: black;
-  padding: 10px;
-  text-align: left;
-  width: 100%;
-  display: inline;
-}
-
-.form-inline input {
-  min-width: 300px;
-  margin-right: 10px;
-}
-
-.form-inline label {
-  font-size: 20px;
-  font-weight: bold;
-  color: black;
-  padding: 10px;
-  text-align: left;
-  width: 100%;
-  display: inline;
-}
-
-
-.navbar {
-  background-color: #f495bf;
-}
-
-.navbar-brand {
-  color: #df1b27;
-  text-decoration: none;
-  font-style: normal;
-  font-size: 20px;
-  font-weight: bold;
-}
-
-/*
-.nav-link {
-  color: #df1b27;
-  font-family: lobster;
-  text-decoration: none;
-  font-style: italic;
-  font-size: 20px;
-  font-weight: bold;
-}
-*/
 
 .label-link {
 margin: 10px;
@@ -168,4 +110,62 @@ background-color: #f495bf;
 .label-link a:hover {
 background-color: hotpink;
 text-decoration: underline;
+}
+
+.navbar {
+  background-color: #f495bf;
+}
+
+.navbar-brand {
+  color: #df1b27;
+  text-decoration: none;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #f495bf;
+}
+
+
+form {
+  padding-bottom: 100px;
+}
+
+footer {
+    padding-bottom: 30px;
+    padding-left: 15px;
+}
+
+.col {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.container {
+  width: 100%;
+}
+
+.form-inline label {
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+  padding: 10px;
+  text-align: left;
+  width: 100%;
+  display: inline;
+}
+
+.form-inline input {
+  min-width: 300px;
+  margin-right: 10px;
+}
+
+.form-inline label {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  padding: 10px;
+  text-align: left;
+  width: 100%;
+  display: inline;
 }
