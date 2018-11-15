@@ -1,11 +1,8 @@
 body {
   font-family: "Calibri";
   text-align: left;
-}
+  }
 
-#ada-background {
-  opacity: 0.5;
-}
 
 .home-page-image {
   width: 100%;
@@ -85,8 +82,15 @@ figcaption {
   img {
     margin-left: 80px;
   }
-
 }
+@media screen and (min-width:1300px)
+  {
+body {
+  background-image: url("images/Ada_Lovelace_drawing.jpg"),url("images/Ada_Lovelace_drawing.jpg");
+  background-repeat:repeat-y,repeat-y;
+  background-position: left,right;
+  }
+  }
 
 .label-link {
 margin: 10px;
@@ -160,17 +164,22 @@ footer {
   display: inline;
 }
 
+#send-button {
+  margin-top: 10px;
+}
+
 .form-inline input {
   min-width: 300px;
   margin-right: 10px;
+  margin-top: 10px;
 }
 
 .form-inline label {
   font-size: 20px;
   font-weight: bold;
   color: black;
-  padding: 10px;
-  text-align: left;
+  padding: 0px;
+  justify-content: left;
   width: 100%;
   display: inline;
 }
