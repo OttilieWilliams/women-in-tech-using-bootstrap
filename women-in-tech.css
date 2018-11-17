@@ -9,18 +9,12 @@ h1 {
   text-align: center;
 }
 
+@media screen and (min-width:700px) {
 #wrapper {
   width: 50%;
   max-width: 1024px;
   margin: 0 auto;
 }
-
-#facts-and-quotes {
-  float: left;
-  width: 50%;
-  margin-top: 8%;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 h2 {
@@ -47,32 +41,6 @@ figure {
   padding: 0px 0px;
 }
 
-img {
-  width: 70%;
-  margin-top: 30px;
-}
-
-figcaption {
-  text-align: left;
-}
-
-/*For desktop*/
-@media screen and (min-width:800px) {
-  #portrait {
-    float: right;
-    width: 50%;
-  }
-
-  #facts-and-quotes {
-    float: left;
-    width: 50%;
-  }
-
-  img {
-    margin-left: 80px;
-  }
-}
-
 @media screen and (min-width:1300px) {
   body {
     background-image: url("images/Ada_Lovelace_drawing.jpg"), url("images/Ada_Lovelace_drawing.jpg");
@@ -80,6 +48,7 @@ figcaption {
     background-position: left, right;
   }
 }
+
 
 #biography {
   clear: both;
