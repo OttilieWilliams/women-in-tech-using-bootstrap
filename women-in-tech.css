@@ -21,6 +21,10 @@ h2 {
   text-align: left;
 }
 
+.key-facts {
+  padding-top: 40px;
+}
+
 ul {
   list-style-type: none;
   padding: 0;
@@ -41,6 +45,7 @@ figure {
   padding: 0px 0px;
 }
 
+/*
 @media screen and (min-width:1300px) {
   body {
     background-image: url("images/Ada_Lovelace_drawing.jpg"), url("images/Ada_Lovelace_drawing.jpg");
@@ -48,18 +53,19 @@ figure {
     background-position: left, right;
   }
 }
-
+*/
 
 #biography {
   clear: both;
   padding-left: 15px;
 }
 
+/*
 .col {
   padding-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
-}
+}*/
 
 .container {
   width: 100%;
