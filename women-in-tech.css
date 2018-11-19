@@ -9,6 +9,10 @@ h1 {
   text-align: center;
 }
 
+figure {
+  width: 50%;
+}
+
 @media screen and (min-width:700px) {
 #wrapper {
   width: 50%;
@@ -48,6 +52,10 @@ figure {
 #biography {
   clear: both;
   padding-left: 15px;
+}
+
+.grace-hopper-portrait {
+  padding-top: 40px;
 }
 
 .col {
